@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(41 51 113);
+    position: sticky;
+  
+  }
+  
+  .logo img {
+    width: 250px;
+  
+  }
+  
+  .SearchBar {
+    width: 500px;
+    padding: 8px;
+    margin: 150px;
+    border-radius: 10px;
+    color: rgb(44, 44, 199);
+  }
+  
+  .logIn {
+    padding: 8px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(12, 12, 88);
+  }
+  
+  .logIn:hover{
+    font-weight: 800;
+    color: blue;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  .search-login{
+    display: flex;
+    gap: 40px;
+  }
+  
+  .myAccount{
+    height: 30px;
+    width: 30px;
+    border-radius: 17px;
+    border: 1px solid white;
+
+  }
+
+ .myAccount:hover{
+    font-weight: 800;
+    color: blue;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    margin-top: 1px;
+    height: 60px;
+    background-color: rgb(19, 11, 56);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  .home1{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    transition: 0.3s linear;
+  }
+  
+  .searchLogo{
+    background-color: rgb(200,199,194);
+    border-radius: 0.15px;
+    margin-top: 40px;
+    width: 450px;
+    height: 60px;
+    border: 10px;
+    border-radius: 10px;
+  }
+  .searchLogo input{
+    color: black;
+  }
+  .searchBar{
+    margin-top: 15px;
+    height: 25px;
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  .dropbtn {
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    width: 10rem;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #9f9a9a;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #ddd;
+  }
+  
+/* Styles for the Savings Account */
+.HealthInsurance{
+    height: 50vh;
+    width: 215vh;
+    display: flex;
+}
+.photo{
+    height: 50vh;
+    width: 215vh;
+    background-image: url(mainStandaloneHealthInsurance.webp);
+    background-size: contain;
+}
+.hero-text{
+    width: 550px;
+    height: 55vh;
+    margin-left: -350px;
+    background-color: aquamarine;
+}
+.biggerText{
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.smallerText{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.theBlocks{
+    display: flex;
+}
+.HealthInsuranceBlock1{
+    width: 550px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.HealthInsuranceBlock2{
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    font-weight: 600;
+}
+.container{
+    height: 800px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box:hover{
+    transform:scale(1.02);
+
+}
+.box { 
+width: 30%;
+height: 45%;
+margin-bottom: 30px;
+background: #fff 0% 0% no-repeat padding-box;
+border: 0;
+box-shadow: 0 0 20px #1a2c7126;
+margin: 0 15px 30px 15px;
+padding: 0;
+-webkit-transition: all .6s cubic-bezier(.165,.84,.44,1);
+transition: all .6s cubic-bezier(.165,.84,.44,1);
+position: relative;
+top: auto;
+left: auto;
+right: auto;
+bottom: auto;
+padding-bottom: 80px;
+margin-bottom: 20px;
+}
+/* image insertion */
+.imageInsert1{
+    height: 200px;
+    width: 380px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(AccidentCareIndividualInsurancePolicy.webp);
+    background-size: cover;
+}
+.imageInsert2{
+    height: 200px;
+    width: 380px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(DiabetesSafeInsurancePolicy.webp);
+    background-size: cover;
+}
+.imageInsert3{
+    height: 200px;
+    width: 380px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(FamilyHealthOptimaInsurancePlanPolicy.webp);
+    background-size: cover;
+}
+.imageInsert4{
+    height: 200px;
+    width: 380px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(HealthAssurance.webp);
+    background-size: cover;
+}
+.imageInsert5{
+    height: 200px;
+    width: 380px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(HealthCompanion.webp);
+    background-size: cover;
+}
+.imageInsert6{
+    height: 200px;
+    width: 380px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(SeniorCitizenRedCarpetHealthInsurancePolicy.webp);
+    background-size: cover;
+}
+.image-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+footer{
+  margin-top: 130px;
+  background-color: #1b232d;
+  color: white;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1rem;
+}
+.copyright{
+  background-color: rgb(34, 34, 141);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.li{
+  margin-top: 4px;
+  list-style: none;
+  color: aliceblue;
+  text-decoration: none;
+}
+.footerName{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+a{
+  text-decoration: none;
+}/* Apply now button CSS Starts */
+
+.apply-button {
+  display: flex;
+  align-items: center;
+  background-color:rgb(41 51 113);
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.apply-button:hover {
+  background-color: #095bac;
+  box-shadow: 10px 10px 10px   rgba(0, 0, 0, 0.1);;
+}
+
+.checkmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 200px;
+}
+
+.apply-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}

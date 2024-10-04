@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Opening</title>
+    <link rel="stylesheet" href="identifyYourSelf.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>We have upgraded. You should too.</h1>
+                <p>Open your Account NOW!</p>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Identify Yourself >> </a></li>
+            <li><a href="#">Contact Details >> </a></li>
+            <li><a href="#">Submitted >> </a></li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <section class="form-section">
+            <h2>Welcome to UTB</h2>
+            <form>
+                <label for="mobile">Please provide your Aadhaar Linked mobile number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="+91" required>
+
+                <label for="dob">Your Date of Birth</label>
+                <input type="date" id="dob" name="dob" placeholder="DD MM YYYY" required>
+                <small>Please provide your details as per PAN card / officially valid documents</small>
+                <div class="form-group">
+                    <div class="radio-group">
+                        <input type="radio" id="mr" name="title" value="mr">
+                        <label for="mr">Mr.</label>
+                        <input type="radio" id="ms" name="title" value="ms" checked>
+                        <label for="ms">Ms.</label>
+                        <input type="radio" id="mrs" name="title" value="ms" checked>
+                        <label for="ms">Mrs.</label>
+                        <input type="radio" id="none" name="title" value="ms" checked>
+                        <label for="ms">None</label>
+                    </div>
+                </div>
+                <div class="kyc-options">
+                    <button class="kyc-button aadhaar">Use Aadhaar<br><span>Create Instant Account</span></button>
+                    <button class="kyc-button other">Use Other Document for KYC<br><span>(Requires Branch
+                            Visit)</span></button>
+                </div>
+                <div class="consent">
+                    <input type="checkbox" id="dbt" style="height: 20px;width: 20px;">
+                    <label for="dbt">I would like to receive government benefits/subsidy through Direct Benefit Transfer
+                        (DBT) in my UT Bank account.</label>
+                    <br>
+                    <input type="checkbox" id="aadhaar-agree" style="height: 20px;width: 20px;">
+                    <label for="aadhaar-agree">I Agree to Aadhaar <a href="#">Terms & Conditions</a></label>
+                </div>
+
+                <button type="submit" class="btn">Start Now >></button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
